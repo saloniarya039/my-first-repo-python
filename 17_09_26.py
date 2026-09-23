@@ -85,7 +85,57 @@ while True:
 
 
 
-import addmultiplication
+""" import addmultiplication
 print(addmultiplication.x)
 addmultiplication.sum(1,2)
 addmultiplication.multiplication(2,3)
+ """
+
+
+
+
+
+
+
+""" irrigation_method = int(input())
+area_acres = int(input())
+a = float(area_acres*40)
+b = float(area_acres*85)
+if irrigation_method == 0:
+    print(a)
+else:
+    print(b) """
+
+
+""" seat_category = input()
+showtime = input()
+num_ticket = int(input())
+
+a = (num_ticket*350)
+b = (num_ticket*250)
+c = (num_ticket*200)
+d = (num_ticket*150)
+
+if seat_category == "premium" and showtime == "weekend":
+    print(f"{a:.2f}")
+elif seat_category == "premium" and showtime == "weekday":
+    print(f"{b:.2f}")
+elif seat_category == "standard" and showtime == "weekend":
+    print(f"{c:.2f}")
+else:
+    print(f"{d:.2f}") """
+
+
+""" units_consumed = float(input())
+is_peak_hour = input()
+a = (units_consumed*9)
+b = (units_consumed*5)
+if is_peak_hour == 1:
+    print(f"{a:.2f}")
+else:
+    print(f"{b:.2f}") """
+
+
+
+
+
